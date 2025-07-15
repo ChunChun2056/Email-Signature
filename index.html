@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Squad - Email Signature Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-section">
+            <h1>Email Signature Generator</h1>
+            <p>Enter your details below to generate your official email signature.</p>
+        </div>
+
+        <div class="main-layout">
+            <div class="generator-column">
+                <div class="form-section">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" placeholder="e.g., Jane Doe">
+
+                    <label for="position">Position / Title:</label>
+                    <input type="text" id="position" placeholder="e.g., Senior Developer">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="e.g., jane.doe@thecodesquad.com.au" required>
+
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="text" id="phone" placeholder="e.g., +61 2 1234 5678">
+
+                    <button id="generate-btn">Generate Signature</button>
+                </div>
+            </div>
+
+            <div class="preview-column">
+                <div id="preview-section" class="hidden">
+                    <h2>Preview</h2>
+                    <div class="signature-header">Your signature is ready to be copied.</div>
+                    <div id="signature-output-desktop">
+                        <!-- The generated signature will be injected here by JavaScript -->
+                    </div>
+                    <button id="copy-btn">Copy Signature</button>
+                    <p id="copy-success-desktop" class="hidden">Copied to clipboard!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
