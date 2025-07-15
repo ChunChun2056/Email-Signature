@@ -53,7 +53,7 @@ function generateSignature() {
                                                                             <tr>
                                                                                 <td style="width:208px;">
                                                                                     <a href="https://thecodesquad.com.au/" target="_blank">
-                                                                                        <img alt="The Code Squad Logo" src="images/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="208" height="auto">
+                                                                                        <img alt="The Code Squad Logo" src="./image/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="208" height="auto">
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
